@@ -1,0 +1,12 @@
+127.0.0.1 - - [07/Jan/2024:17:26:31 -0800] "GET / HTTP/1.1" 404 751
+127.0.0.1 - - [07/Jan/2024:17:26:31 -0800] "GET /Zumba_App_Course2/ HTTP/1.1" 200 638
+127.0.0.1 - - [07/Jan/2024:17:26:32 -0800] "GET /Zumba_App_Course2/style.css HTTP/1.1" 200 58
+127.0.0.1 - - [07/Jan/2024:17:26:32 -0800] "GET /favicon.ico HTTP/1.1" 404 762
+127.0.0.1 - - [07/Jan/2024:17:50:08 -0800] "GET /Zumba_App_Course2/addBatch.jsp HTTP/1.1" 200 1135
+127.0.0.1 - - [07/Jan/2024:17:53:37 -0800] "GET / HTTP/1.1" 404 751
+127.0.0.1 - - [07/Jan/2024:17:53:51 -0800] "GET /Zumba_App_Course2/addBatch.jsp HTTP/1.1" 200 1135
+127.0.0.1 - - [07/Jan/2024:17:54:12 -0800] "GET /Zumba_App_Course2/addBatch.jsp HTTP/1.1" 200 1135
+127.0.0.1 - - [07/Jan/2024:19:11:04 -0800] "GET /Zumba_App_Course2/addBatch.jsp HTTP/1.1" 200 1135
+127.0.0.1 - - [07/Jan/2024:21:40:09 -0800] "GET /Zumba_App_Course2/addBatch.jsp HTTP/1.1" 200 1135
+127.0.0.1 - - [07/Jan/2024:21:40:09 -0800] "GET /favicon.ico HTTP/1.1" 404 762
+127.0.0.1 - - [07/Jan/2024:21:40:11 -0800] "GET /Zumba_App_Course2/addBatch.jsp HTTP/1.1" 200 1135

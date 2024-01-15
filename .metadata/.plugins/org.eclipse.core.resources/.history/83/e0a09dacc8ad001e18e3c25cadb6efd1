@@ -1,0 +1,24 @@
+package com.zumba.dao;
+
+import java.sql.PreparedStatement;
+
+import com.zumba.resource.DbResource;
+
+public class BatchDao {
+
+	public int addBatch(Batch batch) {
+		try {
+			Connection con = DbResource.getDbConnection();
+			PreparedStatement pstmt = con.prepareStatment("insert into batch values(?,?,?)");
+			pstmt.setInt(1,  batch.getBatchid());
+			pstmt.setString(2,  batch.getTypeofbatch());
+			pstmt.setString(3, batch.getTime());
+			return pstmt.executeUpdate()
+						
+		} catch (Exception e) { 
+			System.err.println(e);
+			return 0;
+		}
+	}
+	
+}

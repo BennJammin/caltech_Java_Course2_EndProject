@@ -1,0 +1,16 @@
+package com.zumba.service;
+import com.zumba.bean.Batch;
+import com.zumba.dao.BatchDao;
+
+public class BatchService {
+
+	BatchDao bd = new BatchDao ();
+	
+	public String storeBatch(Batch batch) {
+		if(bd.addBatch(batch)>0) {
+			return "Batch details have been added!";
+					}else {
+	        return "There was a problem adding your Batch Details"; 
+	}
+	}
+}

@@ -1,0 +1,7 @@
+127.0.0.1 - - [09/Jan/2024:18:06:29 -0800] "GET /Zumba_App_Course2/ HTTP/1.1" 304 -
+127.0.0.1 - - [09/Jan/2024:18:06:29 -0800] "GET /Zumba_App_Course2/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [09/Jan/2024:18:21:13 -0800] "GET /Zumba_App_Course2/addBatch.jsp HTTP/1.1" 200 1135
+127.0.0.1 - - [09/Jan/2024:19:26:23 -0800] "GET / HTTP/1.1" 404 751
+127.0.0.1 - - [09/Jan/2024:19:26:28 -0800] "GET /Zumba_App_Course2/addBatch.jsp HTTP/1.1" 200 1135
+127.0.0.1 - - [09/Jan/2024:19:26:35 -0800] "POST /Zumba_App_Course2/BatchController HTTP/1.1" 500 7887
+127.0.0.1 - - [09/Jan/2024:19:53:01 -0800] "POST /Zumba_App_Course2/BatchController HTTP/1.1" 500 6740
